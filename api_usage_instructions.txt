@@ -1,0 +1,16 @@
+Run the flask_app.py file to start the flask app. Then, go to postman and send a POST request to your flask server.
+
+Endpoint URL is http://127.0.0.1:5000/predict
+Use the method "POST"
+
+Request Format is in JSON and see the following example.
+
+{
+  "text": "Your input text here"
+}
+
+Your response format should also be in JSON and it should be similar to this.
+
+{
+  "prediction": "0"  // or "1"
+}
